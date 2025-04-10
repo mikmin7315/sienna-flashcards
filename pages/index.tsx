@@ -1,0 +1,1 @@
+// Main flashcard app with all features (placeholder)
