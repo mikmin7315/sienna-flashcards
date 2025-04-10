@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 
@@ -35,6 +34,9 @@ export default function Home() {
       } catch (e) {
         console.error('Error parsing localStorage data:', e);
       }
+    } else {
+      // If no completed words are found, initialize with an empty array.
+      setCompleted([]);
     }
     setLoading(false);
   }, []);
