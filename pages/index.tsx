@@ -1,11 +1,10 @@
+import React from 'react';
+
 export default function Home() {
   return (
-    <div style={{ fontFamily: 'sans-serif', textAlign: 'center', paddingTop: '50px' }}>
-      <h1>🐰 시에나 환영해요!</h1>
-      <p>이곳에서 재미있는 영어 단어 학습을 시작할 수 있어요.</p>
-      <button style={{ padding: '10px 20px', fontSize: '16px', marginTop: '20px' }}>
-        학습 시작하기
-      </button>
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
+      <h1>🎉 시에나 환영해요!</h1>
+      <p>이 화면은 정상 작동을 위한 테스트 페이지입니다.</p>
     </div>
   );
 }
