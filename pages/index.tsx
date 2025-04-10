@@ -49,7 +49,7 @@ export default function Home() {
 
   const markCompleted = () => {
     if (!word) return;
-    const newCompleted = [...new Set([...completed, word.word])];
+    const newCompleted = Array.from(new Set([...completed, word.word]));
     setCompleted(newCompleted);
     localStorage.setItem('completedWords', JSON.stringify(newCompleted));
   };
