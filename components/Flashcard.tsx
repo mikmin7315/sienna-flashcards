@@ -1,1 +1,0 @@
-// Flashcard component logic (placeholder)

@@ -1,1 +1,0 @@
-// Quiz component with multiple choice logic (placeholder)
